@@ -2,8 +2,9 @@
 basically what I made in like 3 weeks, its really not that good and is pretty slow, with a good dataset and model it could do fine tho 
 
 # IN YOUR PROJECT MANAGER JUST ADD A MODELS FOLDER AND PUT THEM IN THERE MICROSOFT IS MONEY HUNGRY AND I CANT UPLOAD MORE THAN 25MB 
+yeah gl
 
-#Configuration & Command-Line Arguments
+# Configuration & Command-Line Arguments
 
 This script uses command-line arguments to configure model fine-tuning, LoRA settings, and training behavior. Below is a summary of the available options and their defaults.
 
