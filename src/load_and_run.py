@@ -2,7 +2,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 # Paths
-merged_model_path = "/home/noidea/PycharmProjects/PythonProject/models/granite_4.0-test01_merged"
+merged_model_path = "$YOUR_PATH_HERE$"
 
 # Load tokenizer
 tokenizer = AutoTokenizer.from_pretrained(merged_model_path, use_fast=False)
