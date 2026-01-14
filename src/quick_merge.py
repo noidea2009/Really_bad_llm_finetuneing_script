@@ -3,9 +3,9 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 # Define your paths
-base_path = "/home/noidea/PycharmProjects/PythonProject/models/granite_4.0-nano"
-adapter_path = "/home/noidea/PycharmProjects/PythonProject/models/granite_4.0-test01"
-save_path = "/home/noidea/PycharmProjects/PythonProject/models/granite_4.0-test01_merged"
+base_path = "$PATH TO BASE MODEL$
+adapter_path = "PATH TO LORA ADAPTERS"
+save_path = "PATH TO MERGED MODEL"
 
 # 1. Load the tokenizer from the base path (CRITICAL)
 tokenizer = AutoTokenizer.from_pretrained(base_path)
