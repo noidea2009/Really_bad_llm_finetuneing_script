@@ -167,7 +167,7 @@ def main():
                 loss = outputs.loss
 
                 # 1. Track the loss
-                # We use .detach() so we don't accidentally keep the whole grad graph
+                # use .detach() so don't accidentally keep the whole grad graph
                 total_loss += loss.detach().float()
 
                 accelerator.backward(loss)
